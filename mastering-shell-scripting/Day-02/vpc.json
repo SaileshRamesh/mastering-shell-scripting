@@ -1,0 +1,52 @@
+{
+    "Vpcs": [
+      {
+        "OwnerId": "739275457221",
+        "InstanceTenancy": "default",
+        "CidrBlockAssociationSet": [
+          {
+            "AssociationId": "vpc-cidr-assoc-0f57f1e90fa2dfd13",
+            "CidrBlock": "10.0.0.0/16",
+            "CidrBlockState": {
+              "State": "associated"
+            }
+          }
+        ],
+        "IsDefault": false,
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "my-vpc-for-testing-vpc"
+          }
+        ],
+        "BlockPublicAccessStates": {
+          "InternetGatewayBlockMode": "off"
+        },
+        "VpcId": "vpc-0cf7cffca490b4b85",
+        "State": "available",
+        "CidrBlock": "10.0.0.0/16",
+        "DhcpOptionsId": "dopt-01b2f3f9d0ea5e8ae"
+      },
+      {
+        "OwnerId": "739275457221",
+        "InstanceTenancy": "default",
+        "CidrBlockAssociationSet": [
+          {
+            "AssociationId": "vpc-cidr-assoc-0a9a8ac749d463eea",
+            "CidrBlock": "172.31.0.0/16",
+            "CidrBlockState": {
+              "State": "associated"
+            }
+          }
+        ],
+        "IsDefault": true,
+        "BlockPublicAccessStates": {
+          "InternetGatewayBlockMode": "off"
+        },
+        "VpcId": "vpc-0bfa8eef86478fb28",
+        "State": "available",
+        "CidrBlock": "172.31.0.0/16",
+        "DhcpOptionsId": "dopt-01b2f3f9d0ea5e8ae"
+      }
+    ]
+}
